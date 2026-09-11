@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>N100 Financial Screener</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; margin: 30px; background-color: #f8f9fa; color: #212529; }
+        .card { background: white; border: 1px solid #dee2e6; border-radius: 8px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        h1 { margin-top: 0; color: #0f2b48; }
+        select, input, button { padding: 8px 12px; font-size: 14px; border-radius: 4px; border: 1px solid #ced4da; margin-right: 8px; margin-bottom: 10px; }
+        .filter-group { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-top: 10px; }
+        button { background-color: #0d6efd; color: white; border: none; cursor: pointer; }
+        button:hover { background-color: #0b5ed7; }
+        .btn-clear { background-color: #6c757d; }
+        .btn-clear:hover { background-color: #5c636a; }
+        .btn-export { background-color: #198754; display: none; }
+        .btn-export:hover { background-color: #157347; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { padding: 10px; border: 1px solid #dee2e6; text-align: left; }
+        th { background-color: #e9ecef; cursor: pointer; user-select: none; }
+        th:hover { background-color: #dde0e3; }
+        tr:nth-child(even) { background-color: #f8f9fa; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>N100 Financial Screener</h1>
+        <div>
+            <label for="preset-select"><strong>Preset Strategy:</strong></label><br>
+            <select id="preset-select">
+                {% for key, val in presets.items() %}
+                    <option value="{{ key }}">{{ val.name }} - {{ val.description }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        
+        <div class="filter-group">
+            <div>
+                <label for="min-roe"><strong>Min ROE (%):</strong></label><br>
+                <input type="number" id="min-roe" placeholder="e.g. 15" step="0.1">
+            </div>
+            <div>
+                <label for="max-debt"><strong>Max Debt/Equity:</strong></label><br>
+                <input type="number" id="max-debt" placeholder="e.g. 0.5" step="0.01">
+            </div>
+        </div>
+
+        <button id="run-btn">Run Screener</button>
+        <button id="clear-btn" class="btn-clear">Clear Filters</button>
+        <button id="export-btn" class="btn-export">Export to CSV</button>
+    </div>
+
+    <div class="card">
+        <h2>Results</h2>
+        <div id="results-container">Run a screener to display matching stocks.</div>
+    </div>
+
+    <script>
+        let currentData = [];
+        let sortAscending = true;
+
+        document.getElementById('run-btn').addEventListener('click', async () => {
+            const preset = document.getElementById('preset-select').value;
+            const minRoe = document.getElementById('min-roe').value;
+            const maxDebt = document.getElementById('max-debt').value;
+            const resContainer = document.getElementById('results-container');
+            
+            resContainer.innerHTML = 'Loading...';
+
+            try {
+                const response = await fetch('/api/v1/screener/run', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ 
+                        preset: preset,
+                        min_roe: minRoe !== "" ? minRoe : null,
+                        max_debt: maxDebt !== "" ? maxDebt : null
+                    })
+                });
+                const res = await response.json();
+                
+                if (res.status === 'success' && res.data.length > 0) {
+                    currentData = res.data;
+                    renderTable(currentData);
+                    document.getElementById('export-btn').style.display = 'inline-block';
+                } else {
+                    resContainer.innerHTML = '<p>No stocks match your active preset and numeric filters.</p>';
+                    document.getElementById('export-btn').style.display = 'none';
+                }
+            } catch (err) {
+                resContainer.innerHTML = '<p style="color:red;">Error fetching screener data.</p>';
+            }
+        });
+
+        document.getElementById('clear-btn').addEventListener('click', () => {
+            document.getElementById('min-roe').value = '';
+            document.getElementById('max-debt').value = '';
+            document.getElementById('preset-select').selectedIndex = 0;
+            currentData = [];
+            document.getElementById('results-container').innerHTML = 'Run a screener to display matching stocks.';
+            document.getElementById('export-btn').style.display = 'none';
+        });
+
+        function renderTable(data) {
+            if (!data || data.length === 0) return;
+            const keys = Object.keys(data[0]);
+            
+            let html = '<table id="screener-table"><thead><tr>';
+            keys.forEach(k => {
+                html += <th onclick="sortTable('')"> ↕</th>;
+            });
+            html += '</tr></thead><tbody>';
+
+            data.forEach(row => {
+                html += '<tr>';
+                keys.forEach(k => { html += <td></td>; });
+                html += '</tr>';
+            });
+            html += '</tbody></table>';
+
+            document.getElementById('results-container').innerHTML = html;
+        }
+
+        function sortTable(column) {
+            sortAscending = !sortAscending;
+            currentData.sort((a, b) => {
+                let valA = a[column];
+                let valB = b[column];
+                if (typeof valA === 'number' && typeof valB === 'number') {
+                    return sortAscending ? valA - valB : valB - valA;
+                }
+                return sortAscending 
+                    ? String(valA).localeCompare(String(valB))
+                    : String(valB).localeCompare(String(valA));
+            });
+            renderTable(currentData);
+        }
+
+        document.getElementById('export-btn').addEventListener('click', () => {
+            if (!currentData || currentData.length === 0) return;
+            const keys = Object.keys(currentData[0]);
+            let csv = keys.join(',') + '\n';
+
+            currentData.forEach(row => {
+                csv += keys.map(k => "").join(',') + '\n';
+            });
+
+            const blob = new Blob([csv], { type: 'text/csv' });
+            const url = window.URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.setAttribute('href', url);
+            a.setAttribute('download', 'screener_results.csv');
+            a.click();
+        });
+    </script>
+</body>
+</html>
