@@ -1,0 +1,8 @@
+company_id,sector,cfo_val,cff_val,latest_net_profit
+COMP_01,Information Technology,-120.5,450.0,85.0
+COMP_16,Pharmaceuticals,-120.5,450.0,85.0
+COMP_31,Telecommunication,-120.5,450.0,85.0
+COMP_46,Financial Services,-120.5,450.0,85.0
+COMP_61,Energy,-120.5,450.0,85.0
+COMP_76,Services,-120.5,450.0,85.0
+COMP_91,Consumer Goods,-120.5,450.0,85.0

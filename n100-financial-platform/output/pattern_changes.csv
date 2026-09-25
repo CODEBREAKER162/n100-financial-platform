@@ -1,0 +1,93 @@
+company_id,previous_year_pattern,current_year_pattern,pattern_changed,allocation_score
+COMP_01,Reinvestor,Capital Returner,True,65.0
+COMP_02,Capital Returner,Deleverager,True,66.0
+COMP_03,Deleverager,Asset Accumulator,True,67.0
+COMP_04,Asset Accumulator,Distress Signal,True,68.0
+COMP_05,Distress Signal,Balanced Allocator,True,69.0
+COMP_06,Balanced Allocator,Growth Capitalist,True,70.0
+COMP_07,Growth Capitalist,Conservative Cash Store,True,71.0
+COMP_08,Conservative Cash Store,Reinvestor,True,72.0
+COMP_09,Reinvestor,Capital Returner,True,73.0
+COMP_10,Capital Returner,Deleverager,True,74.0
+COMP_11,Deleverager,Asset Accumulator,True,75.0
+COMP_12,Asset Accumulator,Distress Signal,True,76.0
+COMP_13,Distress Signal,Balanced Allocator,True,77.0
+COMP_14,Balanced Allocator,Growth Capitalist,True,78.0
+COMP_15,Growth Capitalist,Conservative Cash Store,True,79.0
+COMP_16,Conservative Cash Store,Reinvestor,True,80.0
+COMP_17,Reinvestor,Capital Returner,True,81.0
+COMP_18,Capital Returner,Deleverager,True,82.0
+COMP_19,Deleverager,Asset Accumulator,True,83.0
+COMP_20,Asset Accumulator,Distress Signal,True,84.0
+COMP_21,Distress Signal,Balanced Allocator,True,85.0
+COMP_22,Balanced Allocator,Growth Capitalist,True,86.0
+COMP_23,Growth Capitalist,Conservative Cash Store,True,87.0
+COMP_24,Conservative Cash Store,Reinvestor,True,88.0
+COMP_25,Reinvestor,Capital Returner,True,89.0
+COMP_26,Capital Returner,Deleverager,True,90.0
+COMP_27,Deleverager,Asset Accumulator,True,91.0
+COMP_28,Asset Accumulator,Distress Signal,True,92.0
+COMP_29,Distress Signal,Balanced Allocator,True,93.0
+COMP_30,Balanced Allocator,Growth Capitalist,True,94.0
+COMP_31,Growth Capitalist,Conservative Cash Store,True,65.0
+COMP_32,Conservative Cash Store,Reinvestor,True,66.0
+COMP_33,Reinvestor,Capital Returner,True,67.0
+COMP_34,Capital Returner,Deleverager,True,68.0
+COMP_35,Deleverager,Asset Accumulator,True,69.0
+COMP_36,Asset Accumulator,Distress Signal,True,70.0
+COMP_37,Distress Signal,Balanced Allocator,True,71.0
+COMP_38,Balanced Allocator,Growth Capitalist,True,72.0
+COMP_39,Growth Capitalist,Conservative Cash Store,True,73.0
+COMP_40,Conservative Cash Store,Reinvestor,True,74.0
+COMP_41,Reinvestor,Capital Returner,True,75.0
+COMP_42,Capital Returner,Deleverager,True,76.0
+COMP_43,Deleverager,Asset Accumulator,True,77.0
+COMP_44,Asset Accumulator,Distress Signal,True,78.0
+COMP_45,Distress Signal,Balanced Allocator,True,79.0
+COMP_46,Balanced Allocator,Growth Capitalist,True,80.0
+COMP_47,Growth Capitalist,Conservative Cash Store,True,81.0
+COMP_48,Conservative Cash Store,Reinvestor,True,82.0
+COMP_49,Reinvestor,Capital Returner,True,83.0
+COMP_50,Capital Returner,Deleverager,True,84.0
+COMP_51,Deleverager,Asset Accumulator,True,85.0
+COMP_52,Asset Accumulator,Distress Signal,True,86.0
+COMP_53,Distress Signal,Balanced Allocator,True,87.0
+COMP_54,Balanced Allocator,Growth Capitalist,True,88.0
+COMP_55,Growth Capitalist,Conservative Cash Store,True,89.0
+COMP_56,Conservative Cash Store,Reinvestor,True,90.0
+COMP_57,Reinvestor,Capital Returner,True,91.0
+COMP_58,Capital Returner,Deleverager,True,92.0
+COMP_59,Deleverager,Asset Accumulator,True,93.0
+COMP_60,Asset Accumulator,Distress Signal,True,94.0
+COMP_61,Distress Signal,Balanced Allocator,True,65.0
+COMP_62,Balanced Allocator,Growth Capitalist,True,66.0
+COMP_63,Growth Capitalist,Conservative Cash Store,True,67.0
+COMP_64,Conservative Cash Store,Reinvestor,True,68.0
+COMP_65,Reinvestor,Capital Returner,True,69.0
+COMP_66,Capital Returner,Deleverager,True,70.0
+COMP_67,Deleverager,Asset Accumulator,True,71.0
+COMP_68,Asset Accumulator,Distress Signal,True,72.0
+COMP_69,Distress Signal,Balanced Allocator,True,73.0
+COMP_70,Balanced Allocator,Growth Capitalist,True,74.0
+COMP_71,Growth Capitalist,Conservative Cash Store,True,75.0
+COMP_72,Conservative Cash Store,Reinvestor,True,76.0
+COMP_73,Reinvestor,Capital Returner,True,77.0
+COMP_74,Capital Returner,Deleverager,True,78.0
+COMP_75,Deleverager,Asset Accumulator,True,79.0
+COMP_76,Asset Accumulator,Distress Signal,True,80.0
+COMP_77,Distress Signal,Balanced Allocator,True,81.0
+COMP_78,Balanced Allocator,Growth Capitalist,True,82.0
+COMP_79,Growth Capitalist,Conservative Cash Store,True,83.0
+COMP_80,Conservative Cash Store,Reinvestor,True,84.0
+COMP_81,Reinvestor,Capital Returner,True,85.0
+COMP_82,Capital Returner,Deleverager,True,86.0
+COMP_83,Deleverager,Asset Accumulator,True,87.0
+COMP_84,Asset Accumulator,Distress Signal,True,88.0
+COMP_85,Distress Signal,Balanced Allocator,True,89.0
+COMP_86,Balanced Allocator,Growth Capitalist,True,90.0
+COMP_87,Growth Capitalist,Conservative Cash Store,True,91.0
+COMP_88,Conservative Cash Store,Reinvestor,True,92.0
+COMP_89,Reinvestor,Capital Returner,True,93.0
+COMP_90,Capital Returner,Deleverager,True,94.0
+COMP_91,Deleverager,Asset Accumulator,True,65.0
+COMP_92,Asset Accumulator,Distress Signal,True,66.0

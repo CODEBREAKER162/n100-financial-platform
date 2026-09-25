@@ -1,0 +1,11 @@
+symbol,company,pe_ratio,roe,sector
+RELIANCE,Reliance Industries,24.5,14.2,Energy
+TCS,Tata Consultancy Services,29.1,48.5,IT
+HDFCBANK,HDFC Bank,19.8,16.8,Banking
+INFY,Infosys,25.3,31.4,IT
+ICICIBANK,ICICI Bank,17.2,18.5,Banking
+BHARTIARTL,Bharti Airtel,42.1,12.6,Telecom
+ITC,ITC Limited,26.8,29.1,FMCG
+LT,Larsen & Toubro,31.2,15.4,Construction
+HINDUNILVR,Hindustan Unilever,55.4,20.2,FMCG
+TATAMOTORS,Tata Motors,10.5,45.2,Automobile

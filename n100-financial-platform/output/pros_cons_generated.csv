@@ -1,0 +1,185 @@
+company_id,type,rule_id,text,confidence_pct
+COMP_01,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85.0
+COMP_01,con,C1,Debt-to-equity ratio is elevated for a non-financial company and warrants monitoring,78.0
+COMP_02,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_02,con,C10,Return on capital employed below 10% suggests business is not generating sufficient returns,78.0
+COMP_03,pro,P4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85.0
+COMP_03,con,C4,Company reported a net loss in the most recent financial year,78.0
+COMP_04,pro,P4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85.0
+COMP_04,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_05,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_05,con,C5,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,78.0
+COMP_06,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_06,con,C10,Return on capital employed below 10% suggests business is not generating sufficient returns,78.0
+COMP_07,pro,P2,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.0
+COMP_07,con,C5,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,78.0
+COMP_08,pro,P4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85.0
+COMP_08,con,C10,Return on capital employed below 10% suggests business is not generating sufficient returns,78.0
+COMP_09,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits,85.0
+COMP_09,con,C1,Debt-to-equity ratio is elevated for a non-financial company and warrants monitoring,78.0
+COMP_10,pro,P3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,85.0
+COMP_10,con,C12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,78.0
+COMP_11,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow,85.0
+COMP_11,con,C2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,78.0
+COMP_12,pro,P2,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.0
+COMP_12,con,C4,Company reported a net loss in the most recent financial year,78.0
+COMP_13,pro,P12,Growing asset base funded by internal accruals reflects self-sustaining growth,85.0
+COMP_13,con,C10,Return on capital employed below 10% suggests business is not generating sufficient returns,78.0
+COMP_14,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits,85.0
+COMP_14,con,C3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,78.0
+COMP_15,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85.0
+COMP_15,con,C10,Return on capital employed below 10% suggests business is not generating sufficient returns,78.0
+COMP_16,pro,P6,Net profit compounding at above 20% over 5 years creates significant shareholder value,85.0
+COMP_16,con,C12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,78.0
+COMP_17,pro,P3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,85.0
+COMP_17,con,C9,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,78.0
+COMP_18,pro,P12,Growing asset base funded by internal accruals reflects self-sustaining growth,85.0
+COMP_18,con,C11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,78.0
+COMP_19,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_19,con,C8,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,78.0
+COMP_20,pro,P3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,85.0
+COMP_20,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_21,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85.0
+COMP_21,con,C2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,78.0
+COMP_22,pro,P12,Growing asset base funded by internal accruals reflects self-sustaining growth,85.0
+COMP_22,con,C1,Debt-to-equity ratio is elevated for a non-financial company and warrants monitoring,78.0
+COMP_23,pro,P3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,85.0
+COMP_23,con,C5,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,78.0
+COMP_24,pro,P3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,85.0
+COMP_24,con,C9,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,78.0
+COMP_25,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85.0
+COMP_25,con,C6,Interest coverage ratio below 1.5x indicates risk of not meeting debt obligations,78.0
+COMP_26,pro,P12,Growing asset base funded by internal accruals reflects self-sustaining growth,85.0
+COMP_26,con,C3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,78.0
+COMP_27,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality,85.0
+COMP_27,con,C2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,78.0
+COMP_28,pro,P2,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.0
+COMP_28,con,C8,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,78.0
+COMP_29,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality,85.0
+COMP_29,con,C3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,78.0
+COMP_30,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_30,con,C5,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,78.0
+COMP_31,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85.0
+COMP_31,con,C10,Return on capital employed below 10% suggests business is not generating sufficient returns,78.0
+COMP_32,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow,85.0
+COMP_32,con,C10,Return on capital employed below 10% suggests business is not generating sufficient returns,78.0
+COMP_33,pro,P3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,85.0
+COMP_33,con,C12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,78.0
+COMP_34,pro,P6,Net profit compounding at above 20% over 5 years creates significant shareholder value,85.0
+COMP_34,con,C12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,78.0
+COMP_35,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow,85.0
+COMP_35,con,C9,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,78.0
+COMP_36,pro,P2,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.0
+COMP_36,con,C5,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,78.0
+COMP_37,pro,P2,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.0
+COMP_37,con,C12,Revenue growing at below 5% over 5 years lags inflation and suggests limited business momentum,78.0
+COMP_38,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85.0
+COMP_38,con,C2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,78.0
+COMP_39,pro,P12,Growing asset base funded by internal accruals reflects self-sustaining growth,85.0
+COMP_39,con,C11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,78.0
+COMP_40,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits,85.0
+COMP_40,con,C8,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,78.0
+COMP_41,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow,85.0
+COMP_41,con,C1,Debt-to-equity ratio is elevated for a non-financial company and warrants monitoring,78.0
+COMP_42,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_42,con,C6,Interest coverage ratio below 1.5x indicates risk of not meeting debt obligations,78.0
+COMP_43,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85.0
+COMP_43,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_44,pro,P6,Net profit compounding at above 20% over 5 years creates significant shareholder value,85.0
+COMP_44,con,C6,Interest coverage ratio below 1.5x indicates risk of not meeting debt obligations,78.0
+COMP_45,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85.0
+COMP_45,con,C5,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,78.0
+COMP_46,pro,P2,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.0
+COMP_46,con,C6,Interest coverage ratio below 1.5x indicates risk of not meeting debt obligations,78.0
+COMP_47,pro,P6,Net profit compounding at above 20% over 5 years creates significant shareholder value,85.0
+COMP_47,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_48,pro,P12,Growing asset base funded by internal accruals reflects self-sustaining growth,85.0
+COMP_48,con,C3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,78.0
+COMP_49,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,85.0
+COMP_49,con,C3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,78.0
+COMP_50,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_50,con,C11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,78.0
+COMP_51,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow,85.0
+COMP_51,con,C11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,78.0
+COMP_52,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85.0
+COMP_52,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_53,pro,P11,Revenue growing slower than profits shows improving operating leverage and scale benefits,85.0
+COMP_53,con,C5,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,78.0
+COMP_54,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85.0
+COMP_54,con,C6,Interest coverage ratio below 1.5x indicates risk of not meeting debt obligations,78.0
+COMP_55,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85.0
+COMP_55,con,C1,Debt-to-equity ratio is elevated for a non-financial company and warrants monitoring,78.0
+COMP_56,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,85.0
+COMP_56,con,C9,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,78.0
+COMP_57,pro,P6,Net profit compounding at above 20% over 5 years creates significant shareholder value,85.0
+COMP_57,con,C9,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,78.0
+COMP_58,pro,P2,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.0
+COMP_58,con,C11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,78.0
+COMP_59,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow,85.0
+COMP_59,con,C6,Interest coverage ratio below 1.5x indicates risk of not meeting debt obligations,78.0
+COMP_60,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality,85.0
+COMP_60,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_61,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow,85.0
+COMP_61,con,C10,Return on capital employed below 10% suggests business is not generating sufficient returns,78.0
+COMP_62,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_62,con,C4,Company reported a net loss in the most recent financial year,78.0
+COMP_63,pro,P6,Net profit compounding at above 20% over 5 years creates significant shareholder value,85.0
+COMP_63,con,C9,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,78.0
+COMP_64,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_64,con,C2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,78.0
+COMP_65,pro,P12,Growing asset base funded by internal accruals reflects self-sustaining growth,85.0
+COMP_65,con,C6,Interest coverage ratio below 1.5x indicates risk of not meeting debt obligations,78.0
+COMP_66,pro,P6,Net profit compounding at above 20% over 5 years creates significant shareholder value,85.0
+COMP_66,con,C1,Debt-to-equity ratio is elevated for a non-financial company and warrants monitoring,78.0
+COMP_67,pro,P2,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.0
+COMP_67,con,C10,Return on capital employed below 10% suggests business is not generating sufficient returns,78.0
+COMP_68,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality,85.0
+COMP_68,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_69,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85.0
+COMP_69,con,C11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,78.0
+COMP_70,pro,P6,Net profit compounding at above 20% over 5 years creates significant shareholder value,85.0
+COMP_70,con,C2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,78.0
+COMP_71,pro,P6,Net profit compounding at above 20% over 5 years creates significant shareholder value,85.0
+COMP_71,con,C2,Free cash flow negative for 3 consecutive years raises concern about cash generation quality,78.0
+COMP_72,pro,P4,Revenue growing at above 15% CAGR over 5 years reflects strong business momentum,85.0
+COMP_72,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_73,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85.0
+COMP_73,con,C9,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,78.0
+COMP_74,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality,85.0
+COMP_74,con,C9,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,78.0
+COMP_75,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow,85.0
+COMP_75,con,C5,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,78.0
+COMP_76,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow,85.0
+COMP_76,con,C6,Interest coverage ratio below 1.5x indicates risk of not meeting debt obligations,78.0
+COMP_77,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_77,con,C10,Return on capital employed below 10% suggests business is not generating sufficient returns,78.0
+COMP_78,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85.0
+COMP_78,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_79,pro,P6,Net profit compounding at above 20% over 5 years creates significant shareholder value,85.0
+COMP_79,con,C8,Rising debt-to-equity ratio over 3 years suggests increasing financial leverage risk,78.0
+COMP_80,pro,P2,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.0
+COMP_80,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_81,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85.0
+COMP_81,con,C6,Interest coverage ratio below 1.5x indicates risk of not meeting debt obligations,78.0
+COMP_82,pro,P9,Earnings per share growing above 15% CAGR indicates strong earnings quality and compounding,85.0
+COMP_82,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_83,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_83,con,C3,Operating margins declining for 3 consecutive years suggest pricing or cost pressure,78.0
+COMP_84,pro,P1,Consistently high return on equity above 20% demonstrates exceptional capital efficiency,85.0
+COMP_84,con,C6,Interest coverage ratio below 1.5x indicates risk of not meeting debt obligations,78.0
+COMP_85,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_85,con,C5,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,78.0
+COMP_86,pro,P3,Debt-free balance sheet provides financial flexibility and eliminates interest burden,85.0
+COMP_86,con,C9,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,78.0
+COMP_87,pro,P12,Growing asset base funded by internal accruals reflects self-sustaining growth,85.0
+COMP_87,con,C9,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,78.0
+COMP_88,pro,P2,Strong free cash flow generation over 5 years signals healthy business fundamentals,85.0
+COMP_88,con,C4,Company reported a net loss in the most recent financial year,78.0
+COMP_89,pro,P5,Operating profit margin above 25% indicates strong pricing power and cost discipline,85.0
+COMP_89,con,C11,Net debt exceeding 3 times EBITDA is a high leverage ratio and limits financial flexibility,78.0
+COMP_90,pro,P10,Return on equity improving for 3 consecutive years shows strengthening business quality,85.0
+COMP_90,con,C7,"Dividend payout ratio above 100% means paying dividends from reserves, which is unsustainable",78.0
+COMP_91,pro,P8,Consistent dividend yield above 2% backed by positive free cash flow,85.0
+COMP_91,con,C5,Revenue contraction over 2 consecutive years indicates demand weakness or market share loss,78.0
+COMP_92,pro,P7,Very high interest coverage ratio reflects negligible financial stress from debt servicing,85.0
+COMP_92,con,C9,Earnings per share declining for 3 consecutive years reflects deteriorating profitability,78.0
