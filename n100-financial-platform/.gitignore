@@ -14,3 +14,7 @@ htmlcov/
 venv/
 ENV/
 env/
+
+coverage_report.zip
+*.zip
+

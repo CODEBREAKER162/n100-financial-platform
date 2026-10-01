@@ -63,7 +63,7 @@ with tab1:
                     mime="application/pdf"
                 )
 
-            st.dataframe(df, width="stretch")
+            st.table(df, width="stretch")
 
             st.subheader("💡 Qualitative Insights & Pros/Cons")
             selected_symbol = st.selectbox("Select a stock for deep dive", df["symbol"].tolist())
@@ -94,7 +94,7 @@ with tab2:
     clusters_count = st.slider("Select Number of Clusters", min_value=2, max_value=5, value=3)
     clustered_df = cluster_stocks(n_clusters=clusters_count)
     
-    st.dataframe(clustered_df[["symbol", "company", "sector", "pe_ratio", "roe", "cluster_label"]], width="stretch")
+    st.markdown(clustered_df[["symbol", "company", "sector", "pe_ratio", "roe", "cluster_label"]].to_html(index=False), unsafe_allow_html=True)
     
     st.scatter_chart(
         clustered_df,

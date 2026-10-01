@@ -1,0 +1,4 @@
+﻿screener:
+  min_roe: 0.12
+  max_debt_to_equity: 1.5
+  min_pat_margin: 0.05
